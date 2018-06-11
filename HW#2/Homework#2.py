@@ -74,6 +74,15 @@ plt.ylabel('Frequency')
 #plt.ioff()
 plt.show()
 
+# Plotting the normally distribution randomly generated numbers with 25 bins
+#plt.interactive(False)
+plt.hist(normal_dist, bins= 25)
+plt.title("Histogram of Normal Distribution of Randomly Generated values")
+plt.xlabel('Values')
+plt.ylabel('Frequency')
+#plt.ioff()
+plt.show()
+
 #Plotting the normally distributed generated numbers by the array index
 #plt.interactive(False)
 N = 100
