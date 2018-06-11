@@ -83,14 +83,3 @@ plt.scatter(list(range(0,100)), normal_dist, c=color, alpha = 0.5)
 plt.xlabel('Index_a')
 plt.ylabel('a')
 plt.show()
-
-
-
-    
-
-
-
-
-
-
-
